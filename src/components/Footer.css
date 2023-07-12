@@ -1,5 +1,5 @@
 .footer-container {
-    margin-left: 5rem;
+    margin-left: 5%;
 }
 
 .footer-container h2 {
@@ -11,6 +11,7 @@
 
 .footer-container p {
     display: inline-block;
+    margin-left: 0.3rem;
     font-size: 1.5rem;
 }
 
@@ -33,6 +34,10 @@
 
 @media only screen and (max-width: 767px) {
     .footer-container p {
-        font-size: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .footer-container button {
+        font-size: 0.8rem;
     }
 }

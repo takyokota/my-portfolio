@@ -52,3 +52,13 @@
         font-size: 4rem;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .about-me p {
+        font-size: 1.1rem;
+    }
+
+    .about-title p {
+        font-size: 2rem;
+    }
+}
