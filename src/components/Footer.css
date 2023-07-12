@@ -1,0 +1,38 @@
+.footer-container {
+    margin-left: 5rem;
+}
+
+.footer-container h2 {
+    font-size: 2.2rem;
+    /* text-align: center; */
+    font-style: italic;
+    margin-bottom: 0.8rem;
+}
+
+.footer-container p {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.footer-container button {
+    display: inline-block;
+    width: 4.5rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 1.5rem;
+    transform: translateY(-15%);
+}
+
+.footer-container button:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-container p {
+        font-size: 1.5rem;
+    }
+}

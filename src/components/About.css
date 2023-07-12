@@ -1,0 +1,54 @@
+/* About */
+.about-container {
+    display: flex;
+    height: 90vh;
+}
+
+.about-me {
+    width: 40%;
+    margin: 10% 5%;
+}
+
+.about-me h2 {
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
+.about-title {
+    margin-bottom: 13rem;
+}
+
+.about-title h1 {
+    font-size: 4.5rem;
+    margin: 1rem 0 0;
+}
+
+.about-title p {
+    font-size: 2rem;
+    margin: 0.25rem;
+}
+
+.about-github {
+    margin-top: 3rem;
+}
+
+.about-github a {
+    color: white;
+}
+
+.about-skills {
+    width: 60%;
+    margin: 1% 5%;
+}
+
+.about-skills h2 {
+    margin-left: 2.8rem;
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-title h1 {
+        font-size: 4rem;
+    }
+}

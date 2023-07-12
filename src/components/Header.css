@@ -1,0 +1,22 @@
+#nav-header {
+    width: 40vw;
+}
+
+#nav-list {
+    display: flex;
+}
+
+#nav-list li {
+    margin-right: 2.2rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+#nav-list a {
+    color: rgb(236, 233, 233);
+    text-decoration: none;
+}
+
+#nav-list a:hover {
+    color: rgb(170, 169, 169);
+}

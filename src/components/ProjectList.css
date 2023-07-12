@@ -1,0 +1,26 @@
+.slider {
+    margin: 0 1.3rem;
+    padding: 2rem 0;
+    overflow: "hidden";
+}
+
+.slider h4 {
+    text-align: center;
+    margin-top: 3.3rem;
+    margin-bottom: 0.2rem;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.slider img {
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.slider img:hover {
+    opacity: 1.0;
+}
+
+.react-multiple-carousel__arrow {
+    font-weight: bolder;
+}
