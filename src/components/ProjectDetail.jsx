@@ -52,7 +52,8 @@ const ProjectDetail = (props) => {
         </div>
       </div>
       <div className='project-gif'>
-        <img src={`src/assets/img/${data.gif}`} alt={data.title} />
+        <img src={data.gif} alt={data.title} />
+        {/* <img src={`src/assets/img/${data.gif}`} alt={data.title} /> */}
       </div>
     </div>
   );
