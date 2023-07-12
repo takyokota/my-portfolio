@@ -52,7 +52,7 @@ const ProjectDetail = (props) => {
         </div>
       </div>
       <div className='project-gif'>
-        <img src={`my-portfolio/src/assets/img/${data.gif}`} alt={data.title} />
+        <img src={`src/assets/img/${data.gif}`} alt={data.title} />
       </div>
     </div>
   );

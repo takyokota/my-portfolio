@@ -36,7 +36,7 @@ const ProjectList = () => {
           <div className='slider' key={item.id}>
             <h4>{item.title}</h4>
             <img
-              src={`my-portfolio/src/assets/img/${item.img}`}
+              src={`src/assets/img/${item.img}`}
               alt={item.title}
               onClick={() => {
                 setProject(item.id);
